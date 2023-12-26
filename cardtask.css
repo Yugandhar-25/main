@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#ord{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+#ord > div{
+    width: 30%;
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 5px 4px 10px grey;
+}
+
+#ord > div > img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: 2s;
+}
+
+#ord > div > h5{
+    font-size: 15px;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+#ord > div > h6{
+    margin-top: 0;
+    color: grey;
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#ord > div > p{
+    font-size: 12px;
+    color: grey;
+    margin: 0;
+    padding-left: 20px;
+}
+
+#ord > div > button{
+    background-color: #00754a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 7px 20px; 
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+#ord > div > img:hover{
+    transform: scale(1.2);
+}
+
+#ord > div > button:hover{
+    background-color: rgb(1, 44, 1);
+}
+
+
+
